@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration form</title>
+
+  <style>
+    body {
+      background-color: rgb(154, 218, 209);
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding:0;
+      
+    }
+
+    header h1 {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(25, 87, 87);
+      color: white;
+      font-family:'Times New Roman', Times, serif;
+    }
+
+    button {
+      background-color: rgb(80, 185, 180);
+      font-family: cursive;
+    }
+    form {
+      width: 50%;
+      margin:auto;
+      padding: 70px;
+      background-color:beige;
+      border: 1px solid black;
+      border-radius: 30px;
+      box-shadow: 20px;
+    }
+
+    input, textarea, select{
+      width: 50%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      <center>Registration Form</center>
+    </h1>
+  </header><br>
+  <main>
+
+    <form action="">
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email :</label>
+      <input type="text" id="email" name="email" required><br><br>
+
+      <label for="Contact">Contact :</label>
+      <input type="text" id="Contact" name="Contact" required><br><br>
+
+      <label for="gender">Gender :</label>
+      <select id="gender" name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+
+
+
+      </select><br>
+
+      <label for="Country">Country :</label>
+      <select id="Country" name="Country">
+        <option value="America">America</option>
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+
+
+      </select>
+
+      </select><br>
+
+      <label for="State">State :</label>
+      <select id="State" name="State">
+        <option value="Haryana">Haryana</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Rajasthan">Rajasthan</option>
+
+
+      </select><br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+    </form>
+  </main>
+
+</body>
+
+</html>
